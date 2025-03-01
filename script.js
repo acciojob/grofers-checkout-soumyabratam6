@@ -15,6 +15,7 @@ const getSum = () => {
 	}
   const totalRow = document.createElement("tr");
 	totalRow.id = "totalRow";
+	totalRow.id = "ans";
 
 const totalCell = document.createElement("td");
 	totalCell.setAttribute("colspan","2");
